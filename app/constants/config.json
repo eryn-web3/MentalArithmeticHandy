@@ -1,0 +1,42 @@
+{
+	"fee": 5,
+	"currencyMap": {
+		"BTC": {"id": 1, "adminAddr": "3BeZ6LU2uT3yHSgmXrnJxGFTZ9fdvL3xPE", "description": "Bitcoin uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of bitcoins is carried out collectively by the network."},
+		"ETH": {"id": 2, "adminAddr": "0x44C130AB819aCA4782f87fD779Ea18Bf36fB836E", "description": "Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference."},
+		"LTC": {"id": 3, "adminAddr": "3JkQhTvzXpqru1C37An6JT1PwpmPWDYm3g", "description": "Litecoin LTC - provides faster transaction confirmations (2.5 minutes on average) and uses a memory-hard, scrypt-based mining proof-of-work algorithm to target the regular computers and GPUs most people already have - which are its main differentials to Bitcoin."},
+		"BSV": {"id": 4, "adminAddr": "qz6we8zs07h687t09zvs4rvdap6qjz4qmg8n0w4w53", "description": "Bitcoin SV BSV - After a November 15, 2018 network upgrade, BCH forked into two competing chains that have been battling for miner votes to lead the network rule set. ABC supporters used a burst of rented hash power to create the illusion of an early lead, whilst the Bitcoin Cash SV miners used their own genuine investment in mining hash to provide a dominant lead before the hard fork and a consistent level of support since then."},
+		"DASH": {"id": 5, "adminAddr": "Xd3jnvVEz8gGkDX1vW3jH19WL2YrXRnRHU", "description": "Dash - Dash (DASH) uses a new chained hashing algorithm approach, with many new scientific hashing algorithms for the proof-of-work. DASH aims to be the first privacy-centric cryptographic currency with fully encrypted transactions and anonymous block transactions, this feature is called PrivateSend and can be found on the official Dashcore wallet."}
+	},
+	"currencyArr": [
+		{"id": 1, "symbol": "BTC", "adminAddr": "3BeZ6LU2uT3yHSgmXrnJxGFTZ9fdvL3xPE", "description": "Bitcoin uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of bitcoins is carried out collectively by the network."},
+		{"id": 2, "symbol": "ETH", "adminAddr": "0x44C130AB819aCA4782f87fD779Ea18Bf36fB836E", "description": "Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference."},
+		{"id": 3, "symbol": "LTC", "adminAddr": "3JkQhTvzXpqru1C37An6JT1PwpmPWDYm3g", "description": "Litecoin LTC - provides faster transaction confirmations (2.5 minutes on average) and uses a memory-hard, scrypt-based mining proof-of-work algorithm to target the regular computers and GPUs most people already have - which are its main differentials to Bitcoin."},
+		{"id": 4, "symbol": "BSV", "adminAddr": "qz6we8zs07h687t09zvs4rvdap6qjz4qmg8n0w4w53", "description": "Bitcoin SV BSV - After a November 15, 2018 network upgrade, BCH forked into two competing chains that have been battling for miner votes to lead the network rule set. ABC supporters used a burst of rented hash power to create the illusion of an early lead, whilst the Bitcoin Cash SV miners used their own genuine investment in mining hash to provide a dominant lead before the hard fork and a consistent level of support since then."},
+		{"id": 5, "symbol": "DASH", "adminAddr": "Xd3jnvVEz8gGkDX1vW3jH19WL2YrXRnRHU", "description": "Dash - Dash (DASH) uses a new chained hashing algorithm approach, with many new scientific hashing algorithms for the proof-of-work. DASH aims to be the first privacy-centric cryptographic currency with fully encrypted transactions and anonymous block transactions, this feature is called PrivateSend and can be found on the official Dashcore wallet."}
+	],
+	"miningPoolArr": [
+		{
+			"id": 1, 
+			"currency": "BTC", 
+			"pools": [
+				{"name": "NiceHash", "site": "nicehash.com", "apiId": "", "apikey": "", "withdrawAddr": ""}
+			]
+		},
+		{
+			"id": 2, 
+			"currency": "ETH", 
+			"pools": [
+				{"name": "NanoPool", "site": "NanoPool.com", "apiId": "", "apikey": "", "withdrawAddr": ""}
+			]
+		}
+	],
+	"marketStoresArr": [
+		{"id": 1, "name": "binance", "icon": "https://mentalarithmetichandy.thejinhu.com/assets/admin/market/binance.png", "iconWhite": "https://mentalarithmetichandy.thejinhu.com/assets/admin/market/binance_white.png", "apiKey": "", "apiSecret": "", "orderType": ["market", "limit", "stop"]},
+		{"id": 2, "name": "bittrex", "icon": "https://mentalarithmetichandy.thejinhu.com/assets/admin/market/bittrex.png", "iconWhite": "https://mentalarithmetichandy.thejinhu.com/assets/admin/market/bittrex_white.png", "apiKey": "", "apiSecret": "", "orderType": ["limit"]}
+	],
+	"sendgrid_apikey" : "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",
+	"mentalarithmetic_mail" : "mentalarithmetichandy@outlook.com",
+	"firebase_enable" : true,
+	"defalutCountry": "US",
+	"api_url" : "http://mentalarithmetichandy.thejinhu.com"
+}
