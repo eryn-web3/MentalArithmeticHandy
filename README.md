@@ -12,19 +12,19 @@ Mental Arithmetic App. Built with React Native
           height="320"
           width="160"
           style="float: left; margin-right: 10px;" />
-     <img src="screenshot/IMG_1388.png"
+     <img src="screenshot/IMG_1388.PNG"
          alt="Menu"
          height="320"
          width="160"
          style="float: left; margin-right: 10px;"
      />
-     <img src="screenshot/IMG_1390.png"
+     <img src="screenshot/IMG_1390.PNG"
          alt="Main Page"
          height="320"
          width="160"
          style="float: left; margin-right: 10px;"
      />
-     <img src="screenshot/IMG_1391.png"
+     <img src="screenshot/IMG_1391.PNG"
          alt="Score Page"
          height="320"
          width="160"
